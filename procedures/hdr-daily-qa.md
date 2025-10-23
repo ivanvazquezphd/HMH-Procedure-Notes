@@ -37,7 +37,7 @@ Created by **Ivan Vazquez** in collaboration with **Arjit Baghwala**
 > **📝 Note:** You will log the activity in TotalQA, so note the value or take a picture before leaving the control room if you are filling out your report in a different room
 
 ### 2. Prepare a Test Plan
--  **Log in** using the username `resident` + `varian123`
+-  **Log in** using your credentials
 - **Prepare the Test Plans** before you walk into the room
 	- Click on `Test Plans` > `4DailyQA` and proceed 
 		- **Note:** The number in front of DailyQA will change after the maximum number of fractions for the test plan are delivered (n=99)
@@ -53,7 +53,7 @@ Created by **Ivan Vazquez** in collaboration with **Arjit Baghwala**
 - Enter the treatment room with the survey meter each time
 - Ensure that the emergency container ("lead pig") is located in the room (1)
 - Grab the lock key and Perma-Doc from the cabinet 
-- **Unlock the two exterior locks** on the cabinet (pin 0210)
+- **Unlock the two exterior locks** on the cabinet (enter authorized PIN)
 
 <p align="center">
   <img src="{{ site.baseurl }}/attachments/Pasted image 20250918210528.png" alt="Cabinet Locks" width="600">
