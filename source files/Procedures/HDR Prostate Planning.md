@@ -19,6 +19,8 @@
 
 > [!tip] Prior to contouring, we should have an image with the... 
 
+![[Pasted image 20251023125752.png]]
+
 8. For the first fraction, the physician typically uses a fused image-pair to delineate the prostate. Currently, we fuse the CT with another modality (ex: MRI or PET) to help. 
 	- Navigate to the image registration tab ![[Pasted image 20250925113440.png]]
 	- Verify MR availability on the horizontal display of chronological images for the patient
