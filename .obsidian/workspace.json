@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source files/Procedures/HDR Tandem and Ring Planning Procedure - Incomplete.md",
+                "file": "source files/Procedures/HDR Prostate Planning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HDR Tandem and Ring Planning Procedure - Incomplete"
+              "title": "HDR Prostate Planning"
             }
           },
           {
@@ -185,6 +185,7 @@
   },
   "active": "79f39e34a89c9b53",
   "lastOpenFiles": [
+    "source files/Procedures/HDR Tandem and Ring Planning Procedure - Incomplete.md",
     "README.md",
     "site/desktop.ini",
     "site/search/search_index.json",
@@ -198,7 +199,6 @@
     "site/technical",
     "site/assets/images/favicon.png",
     "source files/Procedures/HDR Prostate Planning.md",
-    "source files/Procedures/HDR Tandem and Ring Planning Procedure - Incomplete.md",
     "docs/resources/tilt-plate-users-guide.md",
     "docs/resources/modusqa-product-brochure.md",
     "docs/resources/female-rtog-normal-pelvis-atlas.md",
