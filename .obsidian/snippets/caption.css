@@ -1,0 +1,207 @@
+/* Obsidian CSS for Centered Images with Captions
+   Usage: ![[image.png|center|400|Caption text here]]
+   
+   Note: Since pure CSS cannot parse the alt text to extract only the caption,
+   this solution provides styling that works best with Obsidian's rendering.
+*/
+
+/* Center images with 'center' in alt text */
+span[alt*="center"] img,
+img[alt*="center"] {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/* Container for centered images */
+.internal-embed.image-embed[alt*="center"] {
+    display: block;
+    text-align: center;
+    margin: 2em auto;
+    position: relative;
+}
+
+/* Hide the default alt text display */
+.internal-embed.image-embed[alt*="center"] img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Hide the problematic auto-generated caption with full alt text */
+.internal-embed.image-embed[alt*="center"]::after {
+    display: none !important;
+}
+
+/* Alternative: Style for manually added captions using HTML */
+.image-with-caption {
+    display: block;
+    text-align: center;
+    margin: 2em auto;
+}
+
+.image-with-caption img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.image-with-caption .caption {
+    display: block;
+    text-align: center;
+    margin-top: 0.75em;
+    font-size: 0.9em;
+    color: var(--text-muted);
+    font-style: italic;
+    line-height: 1.5;
+    padding: 0 1em;
+}
+
+/* Handle size specifications */
+img[alt*="|100|"], img[alt*="|100 "] { width: 100px !important; }
+img[alt*="|200|"], img[alt*="|200 "] { width: 200px !important; }
+img[alt*="|300|"], img[alt*="|300 "] { width: 300px !important; }
+img[alt*="|400|"], img[alt*="|400 "] { width: 400px !important; }
+img[alt*="|500|"], img[alt*="|500 "] { width: 500px !important; }
+img[alt*="|600|"], img[alt*="|600 "] { width: 600px !important; }
+img[alt*="|700|"], img[alt*="|700 "] { width: 700px !important; }
+img[alt*="|800|"], img[alt*="|800 "] { width: 800px !important; }
+img[alt*="|900|"], img[alt*="|900 "] { width: 900px !important; }
+
+/* For Reading View */
+.markdown-reading-view .internal-embed.image-embed[alt*="center"] {
+    display: block;
+    text-align: center;
+    margin: 2em auto;
+    max-width: 100%;
+}
+
+/* For Source/Edit View */
+.markdown-source-view .internal-embed.image-embed[alt*="center"] {
+    display: block;
+    text-align: center;
+    margin: 2em auto;
+}
+
+/* Clean up any spans that might contain the alt text */
+span.image-embed[alt*="center"]::after {
+    display: none !important;
+}
+
+/* If using HTML blocks for captions */
+figure {
+    display: block;
+    text-align: center;
+    margin: 2em auto;
+    padding: 0;
+}
+
+figure img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+figure figcaption {
+    display: block;
+    margin-top: 0.75em;
+    font-size: 0.9em;
+    color: var(--text-muted);
+    font-style: italic;
+    line-height: 1.5;
+    text-align: center;
+    padding: 0 1em;
+}
+
+/* Dark mode adjustments */
+.theme-dark .caption,
+.theme-dark figcaption {
+    color: var(--text-muted);
+}
+
+/* Print styles */
+@media print {
+    .internal-embed.image-embed[alt*="center"],
+    figure,
+    .image-with-caption {
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+    
+    .caption,
+    figcaption {
+        font-size: 0.8rem;
+        color: #666;
+    }
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    .internal-embed.image-embed[alt*="center"],
+    figure,
+    .image-with-caption {
+        margin: 1em auto;
+    }
+    
+    .caption,
+    figcaption {
+        font-size: 0.825rem;
+        padding: 0 0.5rem;
+    }
+    
+    img[alt*="|400|"], img[alt*="|400 "],
+    img[alt*="|500|"], img[alt*="|500 "],
+    img[alt*="|600|"], img[alt*="|600 "],
+    img[alt*="|700|"], img[alt*="|700 "],
+    img[alt*="|800|"], img[alt*="|800 "],
+    img[alt*="|900|"], img[alt*="|900 "] {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+}
+
+/* ============================================
+   WORKAROUND SOLUTIONS FOR PROPER CAPTIONS
+   ============================================
+   
+   Since pure CSS cannot parse the alt text properly,
+   here are alternative approaches:
+   
+   Option 1: Use HTML in your markdown
+   -----------------------------------------
+   <figure>
+     <img src="image.png" width="400">
+     <figcaption>Places on the GUI where information about the source and battery can be read</figcaption>
+   </figure>
+   
+   Option 2: Use a wrapper div
+   -----------------------------------------
+   <div class="image-with-caption">
+     ![[image.png|400]]
+     <span class="caption">Places on the GUI where information about the source and battery can be read</span>
+   </div>
+   
+   Option 3: Install a plugin
+   -----------------------------------------
+   Consider using "Image Captions" plugin from Obsidian Community Plugins
+   which properly handles caption extraction from alt text.
+   
+   Option 4: Use separate line for caption
+   -----------------------------------------
+   ![[image.png|center|400]]
+   *Places on the GUI where information about the source and battery can be read*
+   
+   Then style italic text after images:
+*/
+
+/* Style for Option 4: Italic text after centered images as captions */
+p:has(.internal-embed.image-embed[alt*="center"]) + p > em:only-child {
+    display: block;
+    text-align: center;
+    margin-top: -1em;
+    margin-bottom: 2em;
+    font-size: 0.9em;
+    color: var(--text-muted);
+    font-style: italic;
+}
