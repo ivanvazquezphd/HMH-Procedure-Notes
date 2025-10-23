@@ -12,7 +12,7 @@
 **Jekyll:**
 ```html
 <p align="center">
-  <img src="../attachments/image-name.png" alt="Description" width="400">
+  <img src="{{ site.baseurl }}/attachments/image-name.png" alt="Description" width="400">
 </p>
 ```
 

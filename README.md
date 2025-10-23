@@ -61,9 +61,11 @@ title: Procedure Name
 ### Image Syntax for Jekyll
 ```html
 <p align="center">
-  <img src="../attachments/image-name.png" alt="Description" width="400">
+  <img src="{{ site.baseurl }}/attachments/image-name.png" alt="Description" width="400">
 </p>
 ```
+
+**Note:** `{{ site.baseurl }}` ensures images work correctly with your repository name in the URL.
 
 ## 🎨 Features
 

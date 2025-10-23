@@ -21,7 +21,7 @@ Created by **Ivan Vazquez** in collaboration with **Arjit Baghwala**
 - Turn on the radiation **survey meter** (4)
 
 <p align="center">
-  <img src="../attachments/Pasted image 20250918210821.png" alt="Control Room Setup" width="650">
+  <img src="{{ site.baseurl }}/attachments/Pasted image 20250918210821.png" alt="Control Room Setup" width="650">
 </p>
 
 - Find the **console key** and **switch the system to on**
@@ -31,7 +31,7 @@ Created by **Ivan Vazquez** in collaboration with **Arjit Baghwala**
 	- Check if UPS battery is more than 90%
 
 <p align="center">
-  <img src="../attachments/Pasted image 20250901134029.png" alt="Console Display" width="400">
+  <img src="{{ site.baseurl }}/attachments/Pasted image 20250901134029.png" alt="Console Display" width="400">
 </p>
 
 > **📝 Note:** You will log the activity in TotalQA, so note the value or take a picture before leaving the control room if you are filling out your report in a different room
@@ -43,7 +43,7 @@ Created by **Ivan Vazquez** in collaboration with **Arjit Baghwala**
 		- **Note:** The number in front of DailyQA will change after the maximum number of fractions for the test plan are delivered (n=99)
 
 <p align="center">
-  <img src="../attachments/Pasted image 20250925080722.png" alt="Test Plan Selection">
+  <img src="{{ site.baseurl }}/attachments/Pasted image 20250925080722.png" alt="Test Plan Selection">
 </p>
 
 > **📝 Note:** We run a test plan that can only be used 99 times. Once exhausted, we need to create a copy of the plan. The way it is done in our clinic, is to create a copy with the next ascending number.
@@ -56,7 +56,7 @@ Created by **Ivan Vazquez** in collaboration with **Arjit Baghwala**
 - **Unlock the two exterior locks** on the cabinet (pin 0210)
 
 <p align="center">
-  <img src="../attachments/Pasted image 20250918210528.png" alt="Cabinet Locks" width="600">
+  <img src="{{ site.baseurl }}/attachments/Pasted image 20250918210528.png" alt="Cabinet Locks" width="600">
 </p>
 
 - Use the key (2 in the figure on the right) to unlock the afterloader's lock, which allows you to remove the chain 
@@ -74,11 +74,11 @@ Created by **Ivan Vazquez** in collaboration with **Arjit Baghwala**
 - Connect one of the transfer guides on the wall to the Perma-Doc
 
 <p align="center">
-  <img src="../attachments/Pasted image 20250909205750.png" alt="CamScale Setup" width="500">
+  <img src="{{ site.baseurl }}/attachments/Pasted image 20250909205750.png" alt="CamScale Setup" width="500">
 </p>
 
 <p align="center">
-  <img src="../attachments/Pasted image 20250909210029.png" alt="Transfer Guide Connection" width="500">
+  <img src="{{ site.baseurl }}/attachments/Pasted image 20250909210029.png" alt="Transfer Guide Connection" width="500">
 </p>
 
 ## Safety Checks
@@ -107,7 +107,7 @@ Created by **Ivan Vazquez** in collaboration with **Arjit Baghwala**
 	- Both timers should read 30 seconds
 
 <p align="center">
-  <img src="../attachments/Pasted image 20250902081957.png" alt="Timer Display" width="400">
+  <img src="{{ site.baseurl }}/attachments/Pasted image 20250902081957.png" alt="Timer Display" width="400">
 </p>
 
 ### 7. Test the Interrupt Button 
@@ -135,14 +135,14 @@ Created by **Ivan Vazquez** in collaboration with **Arjit Baghwala**
 - Press the **Interrupt (red) button on the console** to halt treatment
 
 <p align="center">
-  <img src="../attachments/Pasted image 20250918211604.png" alt="Emergency Stop Button">
+  <img src="{{ site.baseurl }}/attachments/Pasted image 20250918211604.png" alt="Emergency Stop Button">
 </p>
 
 - Clear the error and move to the next screen to sign off on the tests
 - Select `Abort this fraction` before clicking `Done`
 
 <p align="center">
-  <img src="../attachments/Pasted image 20250925082434.png" alt="Abort Fraction" width="350">
+  <img src="{{ site.baseurl }}/attachments/Pasted image 20250925082434.png" alt="Abort Fraction" width="350">
 </p>
 
 ### 11. Source Position Verified
@@ -152,7 +152,7 @@ Created by **Ivan Vazquez** in collaboration with **Arjit Baghwala**
 - Click on `Prepare Verification` and run the check, your values should be below 0.05 cm
 
 <p align="center">
-  <img src="../attachments/Pasted image 20250925083708.png" alt="Source Position Verification" width="500">
+  <img src="{{ site.baseurl }}/attachments/Pasted image 20250925083708.png" alt="Source Position Verification" width="500">
 </p>
 
 ### 12. Worklist Check
@@ -161,7 +161,7 @@ Created by **Ivan Vazquez** in collaboration with **Arjit Baghwala**
 - You should see options for `Worklist` and `Treatment` on the bottom left 
 
 <p align="center">
-  <img src="../attachments/Pasted image 20250925094820.png" alt="Worklist Settings" width="400">
+  <img src="{{ site.baseurl }}/attachments/Pasted image 20250925094820.png" alt="Worklist Settings" width="400">
 </p>
 
 ---

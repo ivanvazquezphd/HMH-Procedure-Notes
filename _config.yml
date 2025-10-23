@@ -13,6 +13,10 @@ header_pages:
 # Build settings
 markdown: kramdown
 
+# Include attachments folder
+include:
+  - attachments/
+
 # Exclude files from processing
 exclude:
   - mkdocs.yml
@@ -20,4 +24,5 @@ exclude:
   - site/
   - requirements.txt
   - .github/
-  - attachments/
+  - source files/
+  - CONVERSION-GUIDE.md
