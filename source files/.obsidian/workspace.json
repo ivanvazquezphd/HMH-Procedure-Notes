@@ -1,0 +1,197 @@
+{
+  "main": {
+    "id": "be1f83bdedeb1962",
+    "type": "split",
+    "children": [
+      {
+        "id": "947807e9f81dd473",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f853d45a4265dffa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HDR Daily QA.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "HDR Daily QA"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c600bdd4530670b3",
+    "type": "split",
+    "children": [
+      {
+        "id": "a48e5be5d3a80ce8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1f81987fbda2221d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "6363d8a8eb40a488",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "2b36d06b9094bd3e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "4d6045f70c57acbb",
+    "type": "split",
+    "children": [
+      {
+        "id": "babf65ad639adfd5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fd511366b7aa3028",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "HDR Daily QA.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for HDR Daily QA"
+            }
+          },
+          {
+            "id": "224192f6beb32b0b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Procedures/HDR Cylinder Planning Notes.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from HDR Cylinder Planning Notes"
+            }
+          },
+          {
+            "id": "43f7f8067fcf9509",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "fbd30008fd8cef21",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Procedures/HDR Cylinder Planning Notes.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of HDR Cylinder Planning Notes"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "f853d45a4265dffa",
+  "lastOpenFiles": [
+    "attachments/Pasted image 20250901080934.png",
+    "attachments",
+    "HDR Daily QA.md",
+    "Untitled.base",
+    "Procedures/HDR Cylinder Planning.md",
+    "Procedures/HDR Tandem and Ring Planning Procedure.md",
+    "Procedures/attachments/Pasted image 20250829145210.png",
+    "Procedures/EPID IMRT QA Procedure.md",
+    "Procedures/resources/Tilt-Plate_Users_Guide.pdf",
+    "Procedures/attachments/Pasted image 20250829131227.png",
+    "Procedures/attachments/Pasted image 20250829074058.png",
+    "Procedures/resources",
+    "Procedures/Resident Exercises.md",
+    "Pasted image 20250818004106.png",
+    "Pasted image 20250818004047.png",
+    "Pasted image 20250818004017.png",
+    "Pasted image 20250818003840.png",
+    "Pasted image 20250818003409.png",
+    "Pasted image 20250818003222.png",
+    "Pasted image 20250818002919.png",
+    "HDR Cylinder Planning Notes.pdf"
+  ]
+}
