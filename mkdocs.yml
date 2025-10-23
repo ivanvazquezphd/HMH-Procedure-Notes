@@ -1,9 +1,0 @@
-site_name: HMH Procedure Notes
-site_url: https://ivanvazquezphd.github.io/HMH-Procedure-Notes/
-
-theme:
-  name: material
-
-nav:
-  - Home: index.md
-  - Test Page: test.md
