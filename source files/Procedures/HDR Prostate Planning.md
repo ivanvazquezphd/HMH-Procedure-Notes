@@ -15,12 +15,6 @@
 
 ![[Pasted image 20251023114000.png|center500]]
 
-CT_HDR_Prostate 
-
-
-FRaction name should be added.... 
-
-
 ## Phase 2. Contouring
 
 > [!tip] Prior to contouring, we should have an image with the... 
