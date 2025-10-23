@@ -1,0 +1,23 @@
+title: HMH Procedure Notes
+description: Houston Methodist Hospital Medical Physics Procedure Documentation
+theme: jekyll-theme-cayman
+baseurl: "/HMH-Procedure-Notes"
+url: "https://ivanvazquezphd.github.io"
+
+# Navigation
+header_pages:
+  - index.md
+  - procedures.md
+  - notes.md
+
+# Build settings
+markdown: kramdown
+
+# Exclude files from processing
+exclude:
+  - mkdocs.yml
+  - docs/
+  - site/
+  - requirements.txt
+  - .github/
+  - attachments/

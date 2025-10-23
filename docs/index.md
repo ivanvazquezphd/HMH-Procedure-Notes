@@ -1,36 +1,15 @@
-# HMH Procedure Notes
+# Welcome to HMH Procedure Notes
 
-Welcome to the Houston Methodist Hospital Medical Physics Procedure Documentation site. This comprehensive resource contains detailed procedures, study notes, and technical documentation for medical physics operations.
+This is a simple test site to verify GitHub Pages deployment is working.
 
-## Quick Navigation
+## Testing
 
-### 📋 Procedures
-- **HDR Procedures**: Prostate planning, cylinder planning, tandem and ring planning, and daily QA
-- **IMRT QA**: EPID-based quality assurance procedures
-- **Data Management**: Import/export and anonymization procedures
-- **Training**: Resident exercises and educational materials
+If you can see this page with proper formatting, the deployment is working!
 
-### 📚 Study Notes
-- **TG-51 Protocol**: Clinical reference dosimetry study notes
-- **Daily QA**: Quality assurance procedures and checklists
+## Next Steps
 
-### 🔬 Technical Documentation
-- **Film QA**: Film-based quality assurance procedures
-- **Winston-Lutz**: Mechanical QA procedures
-- **Inverse Planning**: Mathematical formulations for HDR brachytherapy
-
-### 📖 Resources
-- **Clinical Protocols**: RTOG atlases and reference materials
-- **Equipment Manuals**: ModusQA and Tilt Plate documentation
-
-## Getting Started
-
-Use the navigation menu above to browse different sections, or use the search functionality to find specific procedures or topics.
-
-## Contributing
-
-This documentation is maintained by the Houston Methodist Medical Physics team. For updates or corrections, please contact the team lead.
-
----
-
-*Documentation maintained by Houston Methodist Medical Physics team*
+Once this works, we'll add:
+- All your procedures
+- Study notes
+- Technical documentation
+- Professional styling
