@@ -1,0 +1,136 @@
+site_name: HMH Procedure Notes
+site_description: Houston Methodist Hospital Medical Physics Procedure Documentation
+site_url: https://ivanvazquezphd.github.io/HMH-Procedure-Notes/
+site_author: Houston Methodist Medical Physics
+
+# Repository
+repo_name: ivanvazquezphd/HMH-Procedure-Notes
+repo_url: https://github.com/ivanvazquezphd/HMH-Procedure-Notes
+
+# Copyright
+copyright: Copyright &copy; 2024 Houston Methodist Hospital
+
+# Configuration
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.expand
+    - navigation.path
+    - navigation.indexes
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+    - content.code.select
+    - content.action.edit
+    - content.action.view
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+# Plugins
+plugins:
+  - search:
+      lang: en
+
+# Extensions
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.snippets
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      user: yourusername
+      repo: HMH-Procedure-Notes
+  - pymdownx.mark
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - toc:
+      permalink: true
+
+# Page tree
+nav:
+  - Home: index.md
+  - Procedures:
+    - HDR Procedures:
+      - HDR Prostate Planning: procedures/hdr-prostate-planning.md
+      - HDR Cylinder Planning: procedures/hdr-cylinder-planning.md
+      - HDR Tandem and Ring Planning: procedures/hdr-tandem-ring-planning.md
+      - HDR Daily QA: procedures/hdr-daily-qa.md
+    - IMRT QA:
+      - EPID IMRT QA Procedure: procedures/epid-imrt-qa-procedure.md
+    - Data Management:
+      - Exporting and Anonymizing Data: procedures/exporting-anonymizing-data.md
+      - Importing and Exporting Imaging Data: procedures/importing-exporting-imaging-data.md
+    - Training:
+      - Resident Exercises: procedures/resident-exercises.md
+  - Study Notes:
+    - TG-51 Protocol Study Notes: notes/tg-51-protocol-study-notes.md
+    - Daily QA - Incomplete: notes/daily-qa-incomplete.md
+  - Technical Documentation:
+    - Film QA: technical/film-qa.md
+    - Winston-Lutz: technical/winston-lutz.md
+    - Inverse Planning for Prostate HDR Brachytherapy: technical/inverse-planning-prostate-hdr-brachytherapy.md
+  - Resources:
+    - Female RTOG Normal Pelvis Atlas: resources/female-rtog-normal-pelvis-atlas.md
+    - ModusQA Product Brochure: resources/modusqa-product-brochure.md
+    - Tilt Plate Users Guide: resources/tilt-plate-users-guide.md
+
+# Extra
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yourusername
+  version:
+    provider: mike

@@ -10,7 +10,7 @@
 
 ![[Pasted image 20250918105758.png|center|400]]
 
-4. Select the `HDR Prostate Boost(Shared)` if boost or `HDR Prostate\SV (Shared)` if monotherapy for your template ![[Pasted image 20251023105558.png|250]] 
+4. Select the `HDR Prostate Boost(Shared)`  if boost or `HDR Prostate\SV (Shared)` if monotherapy for your template ![[Pasted image 20251023105558.png|250]] 
 	- This will populate the fields in the Treatment Prescription pane (ex: assign One Fraction)
 
 ![[Pasted image 20251023114000.png|center500]]
