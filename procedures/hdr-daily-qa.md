@@ -13,9 +13,7 @@ Created by **Ivan Vazquez** in collaboration with **Arjit Baghwala**
 
 ## Control Room Setup
 
-<details open>
-<summary><h3 style="display: inline;">1. Initial Power-Up and System Checks</h3></summary>
-
+### 1. Initial Power-Up and System Checks
 - Ensure that the **wall switch** is set to HDR (1)
 - Turn on all **cameras** and scan the room (2)
 	- This checks if `Video Monitor/Intercom` are functional
@@ -38,11 +36,7 @@ Created by **Ivan Vazquez** in collaboration with **Arjit Baghwala**
 
 > **📝 Note:** You will log the activity in TotalQA, so note the value or take a picture before leaving the control room if you are filling out your report in a different room
 
-</details>
-
-<details>
-<summary><h3 style="display: inline;">2. Prepare a Test Plan</h3></summary>
-
+### 2. Prepare a Test Plan
 -  **Log in** using your credentials
 - **Prepare the Test Plans** before you walk into the room
 	- Click on `Test Plans` > `4DailyQA` and proceed 
@@ -54,10 +48,7 @@ Created by **Ivan Vazquez** in collaboration with **Arjit Baghwala**
 
 > **📝 Note:** We run a test plan that can only be used 99 times. Once exhausted, we need to create a copy of the plan. The way it is done in our clinic, is to create a copy with the next ascending number.
 
-</details>
-
-<details>
-<summary><h3 style="display: inline;">3. Treatment Room Setup</h3></summary>
+### 3. Treatment Room Setup
 
 - Enter the treatment room with the survey meter each time
 - Ensure that the emergency container ("lead pig") is located in the room (1)
@@ -90,12 +81,9 @@ Created by **Ivan Vazquez** in collaboration with **Arjit Baghwala**
   <img src="{{ site.baseurl }}/attachments/Pasted image 20250909210029.png" alt="Transfer Guide Connection" width="500">
 </p>
 
-</details>
-
 ## Safety Checks
 
-<details>
-<summary><h3 style="display: inline;">4. Length Verification</h3></summary>
+### 4. Length Verification
 
 - With the plan loaded on the afterloader, run the length verification (132cm ± 1mm)
 	- If the test plan was not prepared prior to entering the room, you will need to return to the control room and prepare it it 
@@ -103,20 +91,14 @@ Created by **Ivan Vazquez** in collaboration with **Arjit Baghwala**
 - Start the `Last man out` sequence on the way out of the room 
 - Confirm that a patient is not in the treatment room
 
-</details>
-
-<details>
-<summary><h3 style="display: inline;">5. Check Obstruction Detection Functionality</h3></summary>
+### 5. Check Obstruction Detection Functionality
 
 - Run the QA plan from the control room
 	- If the obstruction detection functionality is working correctly, the system will detect an obstruction in channel 2
 - Return to the room and properly connect the transfer guide 
 - On the way out, restart the last-man-out sequence
 
-</details>
-
-<details>
-<summary><h3 style="display: inline;">6. Time the First Dwell Time and Check the PrimAlert Monitor</h3></summary>
+### 6. Time the First Dwell Time and Check the PrimAlert Monitor
 
 - Run the QA plan with the transfer guide properly connected
 - Start the two timers once the source wire (yellow indicator) reaches the first dwell position 
@@ -128,38 +110,26 @@ Created by **Ivan Vazquez** in collaboration with **Arjit Baghwala**
   <img src="{{ site.baseurl }}/attachments/Pasted image 20250902081957.png" alt="Timer Display" width="400">
 </p>
 
-</details>
-
-<details>
-<summary><h3 style="display: inline;">7. Test the Interrupt Button</h3></summary>
+### 7. Test the Interrupt Button 
 
 - **Click the `Interrupt` button on the graphical interface** after the source leaves the first dwell position
 	- This should interrupt the treatment and park the source
 	- You should see the PrimAlert monitor lights turn off
 
-</details>
-
-<details>
-<summary><h3 style="display: inline;">8. Check the Key Interlock</h3></summary>
+### 8. Check the Key Interlock
 
 - Restart the delivery of the QA plan and wait for the source to reach a dwell position
 - **Turn the key to the middle position** to interrupt the treatment
 
 > **⚠️ Warning:** Turning the key to the off position will terminate the test, which will require a repeat of all interruption tests
 
-</details>
-
-<details>
-<summary><h3 style="display: inline;">9. Door Interlock Functional</h3></summary>
+### 9. Door Interlock Functional
 
 - Restart the delivery of the QA plan and wait for the source to reach a dwell position
 - **Open the door** to the vault once the source is out
 - Restart the last-man-out sequence
 
-</details>
-
-<details>
-<summary><h3 style="display: inline;">10. Emergency Stops Functional</h3></summary>
+### 10. Emergency Stops Functional
 
 - Restart the delivery of the QA plan and wait for the source to reach a dwell position
 - Press the **Interrupt (red) button on the console** to halt treatment
@@ -175,10 +145,7 @@ Created by **Ivan Vazquez** in collaboration with **Arjit Baghwala**
   <img src="{{ site.baseurl }}/attachments/Pasted image 20250925082434.png" alt="Abort Fraction" width="350">
 </p>
 
-</details>
-
-<details>
-<summary><h3 style="display: inline;">11. Source Position Verified</h3></summary>
+### 11. Source Position Verified
 
 - On the top right (to the left of Log Out), click on the drop down menu/button and select `System Configuration` → `Cable and Source`→ `Proceed`
 - Proceed until you reach a window like the one below
@@ -188,10 +155,7 @@ Created by **Ivan Vazquez** in collaboration with **Arjit Baghwala**
   <img src="{{ site.baseurl }}/attachments/Pasted image 20250925083708.png" alt="Source Position Verification" width="500">
 </p>
 
-</details>
-
-<details>
-<summary><h3 style="display: inline;">12. Worklist Check</h3></summary>
+### 12. Worklist Check
 
 -  Select `System Configuration` → `Console and Afterloader`→ `System Setting`
 - You should see options for `Worklist` and `Treatment` on the bottom left 
@@ -199,8 +163,6 @@ Created by **Ivan Vazquez** in collaboration with **Arjit Baghwala**
 <p align="center">
   <img src="{{ site.baseurl }}/attachments/Pasted image 20250925094820.png" alt="Worklist Settings" width="400">
 </p>
-
-</details>
 
 ---
 

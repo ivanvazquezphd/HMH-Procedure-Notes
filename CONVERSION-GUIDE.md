@@ -50,39 +50,20 @@ Icons for different callout types:
 [Other Page](other-page.html)
 ```
 
-### Collapsible Sections
-
-**Jekyll (HTML details/summary):**
-```html
-<details>
-<summary><h3 style="display: inline;">Section Title</h3></summary>
-
-Content goes here...
-
-</details>
-```
-
-To have a section **open by default**, add `open` attribute:
-```html
-<details open>
-<summary><h3 style="display: inline;">Section Title</h3></summary>
-```
-
 ## Quick Conversion Steps
 
 1. Copy Obsidian markdown file
 2. Convert image syntax: `![[image.png|center|400]]` → HTML `<p align="center"><img>` tags
 3. Convert callouts: `> [!note]` → `> **📝 Note:**`
 4. Convert internal links: `[[page]]` → `[page](page.html)`
-5. (Optional) Wrap sections in `<details>` tags to make them collapsible
-6. Add YAML frontmatter at top:
+5. Add YAML frontmatter at top:
    ```yaml
    ---
    layout: default
    title: Page Title
    ---
    ```
-7. Save in appropriate folder (procedures/, notes/, etc.)
+6. Save in appropriate folder (procedures/, notes/, etc.)
 
 ## Maintaining Both Versions
 

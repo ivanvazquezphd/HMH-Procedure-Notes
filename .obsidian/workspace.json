@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source files/Notes/TG-51 Protocol Study Notes.md",
+                "file": "source files/Procedures/HDR Prostate Planning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TG-51 Protocol Study Notes"
+              "title": "HDR Prostate Planning"
             }
           }
         ]
@@ -171,6 +171,8 @@
   },
   "active": "552d7d36717eef0e",
   "lastOpenFiles": [
+    "source files/Procedures/HDR Daily QA.md",
+    "source files/Notes/TG-51 Protocol Study Notes.md",
     "procedures/hdr-daily-qa.md",
     "source files/Procedures/HDR Prostate Planning.md",
     "CONVERSION-GUIDE.md",
@@ -207,9 +209,7 @@
     "docs/procedures/hdr-daily-qa.md",
     "docs/procedures/hdr-tandem-ring-planning.md",
     "docs/procedures/hdr-cylinder-planning.md",
-    "docs/procedures/hdr-prostate-planning.md",
     "attachments/Pasted image 20251023114000.png",
-    "docs/index.md",
     "attachments/Pasted image 20251023105558.png",
     "attachments/Pasted image 20251010164917.png",
     "attachments/Pasted image 20251010153418.png",
